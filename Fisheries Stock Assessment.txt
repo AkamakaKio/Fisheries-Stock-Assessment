@@ -1,0 +1,8 @@
+def calculate_fishing_mortality(total_fishing_effort, fishing_mortality_coefficient):
+    return total_fishing_effort * fishing_mortality_coefficient
+
+# Example usage:
+total_effort = 1000  # Total fishing effort
+mortality_coefficient = 0.2  # Fishing mortality coefficient
+fishing_mortality = calculate_fishing_mortality(total_effort, mortality_coefficient)
+print("Fishing mortality:", fishing_mortality)
